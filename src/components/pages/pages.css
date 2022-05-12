@@ -1,0 +1,207 @@
+.container .input{
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+#search
+{
+    background-color: #EAEAEA;
+}
+
+.search_wrap{
+    width: 500px;
+    margin: 38px auto;
+}
+
+.search_wrap .search_box{
+    position: relative;
+    width: 500px;
+    height: 60px;
+}
+
+.search_wrap .search_box .input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.search_wrap .search_box .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #bc8c4c;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover{
+    background: #bc8c4c;
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.search_wrap.search_wrap_1 .search_box .btn{
+    right: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.search_wrap.search_wrap_1 .search_box .input,
+.search_wrap.search_wrap_3 .search_box .input{
+    padding-right: 80px;
+}
+
+.search_wrap.search_wrap_3 .search_box .input{
+    border-radius: 50px;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn{
+    right: 0px;
+    border-radius: 50%;
+}
+
+.txtBoxbg {
+    border-color: White;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    background-color: White;
+    width: 600px;
+    height: 60px;
+}
+.txtBox {
+    position: relative;
+    left: 300px;
+    border-style: solid;
+    border-width: 0 0 0 8px;
+    padding: 12px;
+    word-break: break-all;
+    border-color: LightSalmon;
+}
+
+.pages {
+    min-height: 75vh;
+}
+
+.form-group{
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.formbg {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 448px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+/*로그인*/
+.inform-wrap {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.inform-form-wrap {
+    width: 380px;
+    height: 440px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.inform-button-wrap {
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 600px 9px #fcae8f;
+    border-radius: 30px;
+}
+.inform-togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.inform-social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+.inform-social-icons img {
+    width: 30px ;
+    cursor: pointer;
+}
+.inform-input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.inform-input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.inform-submit {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.inform-checkbox {
+    margin: 30px 10px 30px 0;
+}
+inform-span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+}
